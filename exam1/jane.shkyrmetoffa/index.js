@@ -21,6 +21,7 @@ const isAmicableNumber = value => {
     }
     return getDivisorsSum(divVal) === value;
 };
+
 const getFriendlyNumbers = (start, end) => {
     let amicableNumbers = [];
     let i = 0;
